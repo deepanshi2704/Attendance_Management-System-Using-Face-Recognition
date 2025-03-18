@@ -11,13 +11,13 @@ import time
 import tkinter.ttk as tkk
 import tkinter.font as font
 
-haarcasecade_path = "haarcascade_frontalface_default.xml"
+haarcasecade_path = "Attendance-Management-system-using-face-recognition-master\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "TrainingImageLabel\\Trainner.yml"
+    "Attendance-Management-system-using-face-recognition-master\TrainingImageLabel\Trainner.yml"
 )
-trainimage_path = "TrainingImage"
+trainimage_path = "Attendance-Management-system-using-face-recognition-master\TrainingImage"
 studentdetail_path = (
-    "StudentDetails\\studentdetails.csv"
+    "Attendance-Management-system-using-face-recognition-master\StudentDetails\studentdetails.csv"
 )
 attendance_path = "Attendance"
 # for choose subject and fill attendance

@@ -29,16 +29,16 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "haarcascade_frontalface_default.xml"
+haarcasecade_path = "Attendance-Management-system-using-face-recognition-master\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "./TrainingImageLabel/Trainner.yml"
+    "Attendance-Management-system-using-face-recognition-master\TrainingImageLabel\Trainner.yml"
 )
-trainimage_path = "/TrainingImage"
+trainimage_path = "Attendance-Management-system-using-face-recognition-master\TrainingImage"
 if not os.path.exists(trainimage_path):
     os.makedirs(trainimage_path)
 
 studentdetail_path = (
-    "./StudentDetails/studentdetails.csv"
+    "Attendance-Management-system-using-face-recognition-master\StudentDetails\studentdetails.csv"
 )
 attendance_path = "Attendance"
 
